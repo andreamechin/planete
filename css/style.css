@@ -73,10 +73,24 @@ html body .container .div {
 html body .container .div .planete {
   margin: 20px;
   padding: 10px;
+  text-align: center;
+  width: 40%;
+  text-decoration: none;
+  color: #262626;
 }
 
-html body .container .div .planete h2 {
-  text-align: center;
+html body .container .div .planete i {
+  color: #05325D;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+html body .container .div .planete p {
+  text-align: justify;
+}
+
+html body .container .div .planete:hover {
+  opacity: 0.55;
 }
 
 html body .container .hamburger {

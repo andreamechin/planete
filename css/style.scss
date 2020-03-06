@@ -64,10 +64,24 @@ html {
                 .planete {
                     margin: 20px;
                     padding: 10px;
+                    text-align: center;
+                    width: 40%;
+                    text-decoration: none;
+                    color: #262626;
 
-                    h2 {
-                        text-align: center;
+                    i {
+                        color: #05325D;
+                        font-size: 4rem;
+                        margin-bottom: 30px;
                     }
+
+                    p {
+                        text-align: justify;
+                    }
+                }
+
+                .planete:hover {
+                    opacity: 0.55;
                 }
             }
 
