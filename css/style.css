@@ -52,6 +52,9 @@ html body .container {
   -webkit-transition: .2s ease;
   transition: .2s ease;
   /************************SLIDER********************************************/
+  /************************SYsteme Solaire**************************************/
+  /************************PLANETES********************************************/
+  /************************PLANETES NAINES ************************************/
 }
 
 html body .container h1 {
@@ -163,6 +166,11 @@ html body .container .div .planete p {
 
 html body .container .div .planete:hover {
   opacity: 0.55;
+}
+
+html body .container .planetes h2 {
+  color: #05325D;
+  text-align: center;
 }
 
 html body .hamburger {
