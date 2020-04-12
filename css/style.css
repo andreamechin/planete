@@ -21,14 +21,15 @@ html body nav ul {
   vertical-align: middle;
 }
 
-html body nav ul li {
+html body nav ul li a {
   display: block;
   padding-bottom: 30px;
   font-size: .8rem;
   font-weight: bold;
   cursor: pointer;
-  color: white;
   text-transform: uppercase;
+  color: white;
+  text-decoration: none;
 }
 
 html body nav::before {
