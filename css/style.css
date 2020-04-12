@@ -63,6 +63,10 @@ html body .container h1 {
   margin-top: -30px;
 }
 
+html body .container p {
+  text-align: justify;
+}
+
 html body .container .hi-slide {
   position: relative;
   width: 754px;
@@ -168,9 +172,18 @@ html body .container .div .planete:hover {
   opacity: 0.55;
 }
 
+html body .container .planetes h1 {
+  margin-bottom: 50px;
+}
+
+html body .container .planetes img {
+  margin: 50px 0;
+}
+
 html body .container .planetes h2 {
   color: #05325D;
   text-align: center;
+  margin: 50px;
 }
 
 html body .hamburger {
